@@ -1,0 +1,147 @@
+html, body {
+  font-family: Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+ul a {
+  color: white;
+}
+
+header {
+  z-index: 1;
+  position: fixed;
+  background-color: #333333;
+  width: 100%;
+}
+
+nav {
+  margin: 0;
+  padding: 1.3rem 0;
+}
+
+nav li {
+  width: 5rem;
+  display: inline-block;
+  color: white;
+  font-weight: 600;
+  font-size: 0.8rem;
+}
+
+main {
+  top: 80px;
+  position: relative;
+  text-align: center;
+}
+
+main h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 4.375rem;
+  margin-top: 0rem;
+  padding-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+footer {
+  position: relative;
+  z-index: 1;
+  background-color: #333;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+footer p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.container {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: 1rem 0.7rem;
+  text-align: center;
+}
+
+.banner {
+  height: 40rem;
+  background-image: url("images/benches.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 1.3px;
+  padding: 1rem 2.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  font-weight: 600;
+  font-size: 0.6rem;
+  letter-spacing: 1.3px;
+  padding: 0.6rem 1.2rem;
+  text-decoration: none;
+  text-transform: uppercase;  
+  margin-bottom: 1.4rem;      
+}
+
+.supporting {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.supporting .column {
+  width: 12rem;
+  height: 12.5rem;
+  display: inline-block;
+  text-align: center;
+}
+
+.supporting img {
+  height: 2rem;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.supporting p {
+  font-weight: 400;
+  font-size: 0.9rem;
+  line-height: 1.6rem;
+  padding: 0 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.supporting a {
+  background-color: white;
+  color: #333333;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 1.3px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 0.6rem;
+  margin-bottom: 0.6rem;
+  border: 0.1rem solid #333333; 
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 3rem;
+    padding: 0 2.8rem;
+  }
+
+  .supporting .column {
+    width: 100%;
+  }
+}
