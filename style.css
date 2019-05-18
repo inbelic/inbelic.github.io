@@ -52,8 +52,7 @@ footer {
 }
 
 footer p {
-  text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
 }
 
 .container {
@@ -61,6 +60,15 @@ footer p {
   margin: 0 auto;
   padding: 1rem 0.7rem;
   text-align: center;
+}
+
+.container h5 {
+  border-radius: 5%;
+  font-weight: 700;
+  color: white;
+  background-color: rgba(74,74,74,0.5);
+  margin: 0 auto;
+  padding: 1rem 0;
 }
 
 .banner {
